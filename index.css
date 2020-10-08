@@ -60,12 +60,11 @@
 .about {
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 100vh;
   background-color: cornsilk;
 }
 
 .about img {
-  width: 600px;
+  width: 100%;
 }
 
 .who {
@@ -127,6 +126,7 @@
   margin-top: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 .education::before {
@@ -137,6 +137,7 @@
   left: 1px;
   height: 85%;
   width: 3px;
+  margin-left: 20px;
 }
 
 .education li::before {
@@ -149,15 +150,18 @@
   border: 3px solid black;
   width: 20px;
   height: 20px;
+  margin-left: 20px;
 }
 
-.education h1 {
-  background-color: black;
+.education h1,
+.experience h1 {
+  background-color: rgb(17, 3, 24);
   font-size: 22px;
   font-weight: lighter;
   color: whitesmoke;
   word-spacing: 5px;
   letter-spacing: 3px;
+  padding: 10px;
 }
 
 .title {

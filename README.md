@@ -1,1 +1,0 @@
-# bayazidresume.github.io
